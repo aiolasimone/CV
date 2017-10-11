@@ -1,20 +1,22 @@
-
-\documentclass[10pt,letterpaper,roman]{moderncv}
+\documentclass[12pt,letterpaper,roman]{moderncv}
 %\usepackage[nenglish]{babel}              
 \moderncvtheme[blue]{classic}                
 \usepackage[latin1]{inputenc}
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.8]{geometry}
 \recomputelengths                             % required when changes are made to page layout lengths
-
-\usepackage{hyperref}
+\usepackage{xpatch}
+\xpatchcmd{\cventry}{\bfseries}{\mdseries}{}{}
+\xpatchcmd{\cventry}{\bfseries}{\mdseries}{}{}
+\setlength{\hintscolumnwidth}{4cm}
 
 % personal data
 \firstname{Simone}
 \familyname{Aiola}
 \title{\hbox{Publications}}                 % optional, remove the line if not wanted
-\address{Department of Physics and Astronomy \\ University of Pittsburgh}{3941 O'Hara St, 15260 Pittsburgh, PA}    % optional, remove the line if not wanted
+\address{Department of Physics, Princeton University\\ 224 Jadwin Hall, Princeton NJ 08544\\}    % optional, remove the line if not wanted
 \mobile{+1-(412)-251-6008}                     % optional, remove the line if not wanted
-\email{sia21@pitt.edu}         % optional, remove the line if not wanted
+\email{saiola@princeton.edu}         % optional, remove the line if not wanted
+\homepage{homepage: put.webpage.here}
 %\extrainfo{Skype: cmbpol}                       %optional, remove the line if not wanted
 %\extrainfo{LinkedIn: http://www.physicsandastronomy.pitt.edu/content/aiola-simone}
 %\photo[80pt]{photo}                                   % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
@@ -33,22 +35,26 @@
 \section{\textsc{Electronic Records}}
 \cvitem{Click for hyperlink:}{{\href{https://scholar.google.com/citations?user=zl5L14QAAAAJ&hl=en}{Google Scholar}}, {\href{http://inspirehep.net/author/profile/S.Aiola.2} {inSPIRE}}, {\href{https://www.researchgate.net/profile/Simone_Aiola} {Research Gate}}, {\href{https://www.linkedin.com/pub/simone-aiola/35/156/38b}{LinkedIn}}}{}{}{}{}
 
-\section{\textsc{Publications as Lead Author or Main Science Team}}
-\cventry{[1]}{Aiola S., Wang B., Kosowsky A., Kahniashvili T., Firouzjahi H.}{}{\emph{Microwave Background Correlations from Dipole Anisotropy Modulation}}{Phys.\ Rev.\ D 92 063008 (2015)}{arxiv:1506.04405}
-\cventry{[2]}{Yoho A., Aiola S., Copi C., Kosowsky A., Starkman G.}{}{\emph{Using Polarization to Constrain the Lack of Large-Angle Correlation in CMB Temperature}}{Phys.\ Rev.\ D 91, 123504 (2015)}{arxiv:1503.05928}
-\cventry{[3]}{Aiola S., Kosowsky A., Wang B.}{}{\emph{Gaussian Approximation of Peak Values in the Integrated Sachs-Wolfe Effect}}{Phys.\ Rev.\ D 91, 043510 (2015)}{arxiv:1410.6138}
-Please contact me for a list of manuscripts in preparation.
+\section{\textsc{Publications as Lead Author or with Substantial Contribution}}
+\cventry{[1]}{Louis T., Grace E., Hasselfield M., Lungu M., Maurin L. et al. \textbf{(including Aiola S.)}}{}{\emph{The Atacama Cosmology Telescope: Two-Season ACTPol Spectra and Parameters}}{JCAP 95, 123529 (2017)}{arxiv:1610.02360}
+\cventry{[2]}{De Bernardis F., \textbf{Aiola S.}, Vavagiakis E.M., Battaglia N., Niemack M.D. et al.}{}{\emph{Detection of the pairwise kinematic Sunyaev-Zel'dovich effect with BOSS DR11 and the Atacama Cosmology Telescope
+}}{JCAP 1703, 03, 008 (2017)}{arxiv:1607.02139}
+\cventry{[3]}{\textbf{Aiola S.}, Wang B., Kosowsky A., Kahniashvili T., Firouzjahi H.}{}{\emph{Microwave Background Correlations from Dipole Anisotropy Modulation}}{Phys.\ Rev.\ D 92, 063008 (2015)}{arxiv:1506.04405}
+\cventry{[4]}{Yoho A., \textbf{Aiola S.}, Copi C., Kosowsky A., Starkman G.}{}{\emph{Using Polarization to Constrain the Lack of Large-Angle Correlation in CMB Temperature}}{Phys.\ Rev.\ D 91, 123504 (2015)}{arxiv:1503.05928}
+\cventry{[5]}{\textbf{Aiola S.}, Kosowsky A., Wang B.}{}{\emph{Gaussian Approximation of Peak Values in the Integrated Sachs-Wolfe Effect}}{Phys.\ Rev.\ D 91, 043510 (2015)}{arxiv:1410.6138}
 
 \section{\textsc{Publications as Member of Collaboration}}
-\cventry{[4]}{Schaan E., Ferraro S., Vargas-Maga\~ na M., Smith K., Ho S., et al. (including Aiola S.)}{}{\emph{Evidence for the kinematic Sunyaev-Ze\v{l}dovich effect with ACTPol and velocity
-reconstruction from BOSS}}{submitted for publication (2015)}{arxiv:1510.06442}
+\cventry{[6]}{Hilton M., Hasselfield M., Sifon C., Battaglia N. et al. \textbf{(including Aiola S.)}}{}{\emph{The Atacama Cosmology Telescope: The Two-Season ACTPol Sunyaev-Zel'dovich Effect Selected Cluster Catalog}}{(2017)}{arxiv:1709.05600}
+\cventry{[7]}{Sherwin B., van Engelen A., Sehgal N., Madhavacheril M. et al. \textbf{(including Aiola S.)}}{}{\emph{The Atacama Cosmology Telescope: Two-Season ACTPol Lensing Power Spectrum}}{Phys.\ Rev.\ D 95, 123529 (2017)}{arxiv:1611.09753}
+\cventry{[8]}{Thornton, R. J. et al. \textbf{(including Aiola S.)}}{}{\emph{The Atacama Cosmology Telescope: The polarization-sensitive ACTPol instrument}}{Astrophys.\ J.\ Suppl. 227, 2, 21 (2016)}{arxiv:1605.06569}
+\cventry{[9]}{Schaan E., Ferraro S., Vargas-Maga\~ na M., Smith K., Ho S. et al. \textbf{(including Aiola S.)}}{}{\emph{Evidence for the kinematic Sunyaev-Ze\v{l}dovich effect with ACTPol and velocity
+reconstruction from BOSS}}{Phys.\ Rev.\ D 93, 082002 (2016)}{arxiv:1510.06442}
 
-\section{\textsc{Proceedings}}
-\cventry{[5]}{Aiola S., Kosowsky A., Wang B.}{}{\emph{Extreme-Value Statistics for Testing Dark Energy}}{Proceedings of the International Astronomical Union 10, 54-56 (2014)}{}
-\cventry{[6]}{P.de Bernardis, et al. (including Aiola. S.)}{}{\emph{SWIPE: a bolometric polarimeter for the Large-Scale Polarization Explorer}}{Proc.\ SPIE Int.\ Soc.\ Opt.\ Eng. 8452 3F (2012)}{arxiv: 1208.0282}
-\cventry{[7]}{LSPE Collaboration (including Aiola S.)}{}{\emph{The Large-Scale Polarization Explorer (LSPE)}}{Proc.\ SPIE 8446, Ground-based and Airborne Instrumentation for Astronomy IV, 84467A (2012)}{arxiv: 1208.0281}
+\section{\textsc{Refereed Proceedings}}
+\cventry{[10]}{\textbf{Aiola S.}, Kosowsky A., Wang B.}{}{\emph{Extreme-Value Statistics for Testing Dark Energy}}{Proceedings of the International Astronomical Union 10, 54-56 (2014)}{}
+\cventry{[11]}{de Bernardis P., et al. \textbf{(including Aiola S.)}}{}{\emph{SWIPE: a bolometric polarimeter for the Large-Scale Polarization Explorer}}{Proc.\ SPIE Int.\ Soc.\ Opt.\ Eng. 8452 3F (2012)}{arxiv: 1208.0282}
+\cventry{[12]}{LSPE Collaboration \textbf{(including Aiola S.)}}{}{\emph{The Large-Scale Polarization Explorer (LSPE)}}{Proc.\ SPIE 8446, Ground-based and Airborne Instrumentation for Astronomy IV, 84467A (2012)}{arxiv: 1208.0281}
 
+\section{}
 \cvitem{\today}{}
 \end{document}
-
-
