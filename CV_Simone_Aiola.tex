@@ -1,114 +1,140 @@
-\documentclass[12pt,letterpaper,oneside,roman]{moderncv}
+\documentclass[11pt,letterpaper,oneside,roman]{moderncv}
 %\usepackage[nenglish]{babel}              
 \moderncvtheme[blue]{classic}                
 \usepackage[latin1]{inputenc}
-\usepackage[scale=0.8]{geometry}
+\usepackage[scale=0.80,top=2cm,bottom=2.5cm]{geometry}
 \recomputelengths                             % required when changes are made to page layout lengths
-%\usepackage{hyperref}
 \setlength{\hintscolumnwidth}{4cm}
+\usepackage{lastpage}
+\rfoot{\textit{\small{\thepage/\pageref{LastPage}}}}
 
 % personal data
 \firstname{Simone}
 \familyname{Aiola}
-\title{\hbox{Curriculum Vitae et Studiorum}}                 % optional, remove the line if not wanted
+\title{\hbox{Curriculum Vitae}}                 % optional, remove the line if not wanted
 \address{Department of Physics, Princeton University\\ 224 Jadwin Hall, Princeton NJ 08544\\}    % optional, remove the line if not wanted
 \phone{+1-(609)-258-9622}                     % optional, remove the line if not wanted
 \email{saiola@princeton.edu}         % optional, remove the line if not wanted
-\homepage{homepage: put.webpage.here}
-\quote{``Fatti non foste a viver come bruti, ma per seguir virtute e canoscenza''  \hbox{[Inferno - Dante Alighieri]}}
-
-\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+\homepage{http://physics.princeton.edu/$\sim$sia21/}
+\photo[50pt]{photo}
+%\quote{``Fatti non foste a viver come bruti, ma per seguir virtute e canoscenza''  \hbox{[Inferno - Dante Alighieri]}}
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 %\AtBeginDocument{\settowidth{\hintscolumnwidth}{Birth date and place}}
 
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
-
 \maketitle
-
+\vspace*{-5mm}
 \section{\textsc{Personal Information}}
 \cvitem{Birth date and place}{June 4, 1988 - Rome, Italy}
+\vspace*{-1mm}
 \cvitem{Nationality}{Italian}
+\vspace*{-1mm}
 \cvitem{Languages}{Italian (native speaker), English (proficiency level)}
-
+\vspace*{-3mm}
 \section{\textsc{Research Interests}}
 \cvitem{}{Cosmology: phenomenology and data analysis.}
+\vspace*{-1mm}
 \cvitem{}{Cosmic Microwave Background physics: temperature, polarization, lensing, Sunyaev-Zel'dovich effect.}
+\vspace*{-1mm}
 \cvitem{}{Cosmic Microwave Background analysis: map-making, simulations, time-ordered data analysis, n-point estimators.}
-
+\vspace*{-3mm}
 \section{\textsc{Research and Appointments}}
-\cventry{Sept 2016 - present}{Postdoctoral Research Associate}{\small Supervisor: Jo Dunkley}{}{}{Princeton University - NJ}
-\cventry{Aug 2013 - Aug 2016}{Graduate Student Researcher}{\small Advisor: Prof. Arthur Kosowsky}{}{}{University of Pittsburgh - PA, USA}
-\cventry{Aug 2012 - Dec 2013}{Teaching Assistant}{}{University of Pittsburgh}{}{Courses: Lab for Physics and Engineers - Lab 0219 (Fall 2012), Intro to Physics 2 - Phys 0111 (Spring 2013 and Summer 2013), Stonehenge to Hubble - Astro 0088 (Fall 2013) - Stars, Galaxies and Cosmos - Astro 0089 (Summer 2014)}{}
+\cventry{Sept 2016 - present}{Postdoctoral Research Associate}{\small Supervisor: Jo Dunkley}{}{}{Physics Department, Princeton University - NJ, USA}
+\vspace*{-1mm}
+\cventry{Aug 2013 - Aug 2016}{Graduate Student Researcher}{\small Advisor: Prof. Arthur Kosowsky}{}{}{Physics and Astronomy Department, University of Pittsburgh - PA, USA}
+\vspace*{-1mm}
+\cventry{Aug 2012 - Dec 2013}{Teaching Assistant}{}{University of Pittsburgh - PA, USA}{}{Courses: Lab for Physics and Engineers - Lab 0219 (Fall 2012), Intro to Physics 2 - Phys 0111 (Spring 2013 and Summer 2013), Stonehenge to Hubble - Astro 0088 (Fall 2013) - Stars, Galaxies and Cosmos - Astro 0089 (Summer 2014)}{}
 \small{For official records of teaching performances please contact Leyla Hirschfeld, graduate program coordinator (lmh@pitt.edu).}
-
-\section{\textsc{Education and Mentorship}}
-\subsection{Education}
-\cventry{Ph.D., Physics}{University of Pittsburgh, USA}{2012 - 2016}{}{}{}
-\cvitem{}{Thesis: \emph{New Probes of Large-Scale CMB Anomalies}}
+\vspace*{-3mm}
+\section{\textsc{Education}}
+\cventry{Ph.D., Physics}{University of Pittsburgh - PA, USA}{2012 - 2016}{}{}{}
+\vspace*{-1mm}
+\cvitem{}{Thesis: \emph{New Probes of CMB Large-Scale Anomalies}}
+\vspace*{-1mm}
 \cvitem{}{Advisor: Prof. Arthur Kosowsky}
-\cventry{M.Sc., Physics}{University of Pittsburgh, USA}{2012 - 2013 (Awarded in 2014)}{}{}{}%arguments 3 to 6 are optional
+\cventry{M.Sc., Physics}{University of Pittsburgh, PA - USA}{2012 - 2013 (Awarded in 2014)}{}{}{}%arguments 3 to 6 are optional
 \cventry{M.Sc., Astrophysics}{`La Sapienza' University of Rome, IT}{2010 - 2012}{}{}{} %arguments 3 to 6 are optional
-\cvitem{}{Thesis: \emph{The Large-Scale Polarization Explorer: Optimization of the Observational Strategy}}
-\cvitem{}{Advisors: Prof. Paolo de Bernardis and Dr. Francesco Piacentini}
+\vspace*{-1mm}
+%\cvitem{}{Thesis: \emph{The Large-Scale Polarization Explorer: Optimization of the Observational Strategy}}
+%\vspace*{-1mm}
+%\cvitem{}{Advisors: Prof. Paolo de Bernardis and Dr. Francesco Piacentini}
+%\vspace*{-1mm}
 \cvitem{}{Remarks: graduated \textit{cum laude}}
 \cventry{B.Sc., Physics \& Astrophysics}{`La Sapienza' University of Rome, IT}{2007 - 2010}{}{}{} %arguments 3 to 6 are optional
-\cvitem{}{Thesis: \emph{The Polarization of the Cosmic Microwave Background}}
-\cvitem{}{Advisor: Prof. Paolo de Bernardis}
-\subsection{Mentorship}
-\cventry{Sept 2014 - Sept 2015}{Art and Sciences Teaching Assistant Mentor}{}{}{}{University of Pittsburgh - PA, USA}
-\cventry{May 2014 - Aug 2016}{Undergraduate Mentorship}{}{Co-advising undergraduate student Ellis Herman (University of Richmond)}{}{Project: Probing the lack of large-scale CMB correlation with polarization and lensing measurements.}
-\cventry{May 2013 - Aug 2016}{Undergraduate Mentorship}{}{Co-advising undergraduate student Bingjie Wang (University of Pittsburgh)}{}{Project: Large-scale anomalies in the CMB temperature sky.}
-
+%\cvitem{}{Thesis: \emph{The Polarization of the Cosmic Microwave Background}}
+%\cvitem{}{Advisor: Prof. Paolo de Bernardis}
+\vspace*{-3mm}
 \section{\textsc{Awards and Fellowships}}
-\cventry{2016}{McGill Astrophysics Postdoctoral Fellowship (declined)}{}{}{}{Department of Physics - McGill University}
+\vspace*{-1mm}
 \cventry{2014 and 2015}{Zaccheus Daniel Predoctoral Fellowship}{}{}{}{Department of Physics and Astronomy - University of Pittsburgh}
+\vspace*{-1mm}
 \cventry{2015}{Andrew Mellon Predoctoral Fellowship}{}{}{}{The Dietrich School of Art and Sciences - University of Pittsburgh}
+\vspace*{-1mm}
 \cventry{2014}{University of Pittsburgh School of Arts and Sciences Fellowship}{}{}{}{The Dietrich School of Art and Sciences - University of Pittsburgh}
+\vspace*{-1mm}
 \cventry{2014}{Nomination for Outstanding Teaching Assistant Awards}{}{}{}{American Association of Physics Teachers}
-\cventry{2014}{Myron P. Garfunkel Excellence in Graduate Student Teaching Award 2014}{}{}{}{Department of Physics and Astronomy - University of Pittsburgh}
-
+\vspace*{-1mm}
+\cventry{2014}{Myron P. Garfunkel Excellence in Graduate Student Teaching Award}{}{}{}{Department of Physics and Astronomy - University of Pittsburgh}
+%\vspace*{-1mm}
+%\cventry{2014}{Statistical Challenges is 21st Century Cosmology Conference Travel Grant}{}{}{}{306 IAU Symposium - Lisbon}
+%\vspace*{-1mm}
+%\cventry{2013}{27th Texs symposium Travel Grant}{}{}{}{Dallas, TX, USA}
+\vspace*{-3mm}
+\section{\textsc{Mentorship}}
+\cventry{Sept 2014 - Sept 2015}{Art and Sciences Teaching Assistant Mentor}{}{}{}{University of Pittsburgh - PA, USA}
+\vspace*{-1mm}
+\cventry{May 2014 - Aug 2016}{Undergraduate Mentorship}{}{Co-advising undergraduate student Ellis Herman (University of Richmond)}{}{Project: Probing the lack of large-scale CMB correlation with polarization and lensing measurements.}
+\vspace*{-1mm}
+\cventry{May 2013 - Aug 2016}{Undergraduate Mentorship}{}{Co-advising undergraduate student Bingjie Wang (University of Pittsburgh)}{}{Project: Large-scale anomalies in the CMB temperature sky.}
+\vspace*{-3mm}
 \section{\textsc{Collaborations}}
-\cventry{May 2016 - Present}{Simons Observatory (SO)}{Main contributions: TOD-to-map working group, pipeline design working group.}{}{}{}
-\cventry{Sept 2014 - Present}{Atacama Cosmology Telescope (ACT)}{Main contributions: Remote Control Observer, map-making working group, kSZ working group, cosmology from 2-point working group.}{}{}{}
-\cventry{Sept 2010 - Aug 2012}{Large-Scale Polarization Explorer (LSPE)}{Main contributions: optimization of the scanning strategy for B-mode search.}{}{}{}
-
+\cventry{May 2016 - Present}{Simons Observatory (SO)}{Main contributions: TOD-to-map working group, pipeline design working group}{}{}{}
+\vspace*{-1mm}
+\cventry{Sept 2014 - Present}{Atacama Cosmology Telescope (ACT)}{Main contributions: Remote Control Observer, lead map-maker, kSZ working group, cosmology from 2-point working group}{}{}{}
+\vspace*{-1mm}
+\cventry{Sept 2010 - Aug 2012}{Large-Scale Polarization Explorer (LSPE)}{Main contributions: optimization of the scanning strategy for B-mode search}{}{}{}
+\vspace*{-3mm}
 \section{\textsc{Computer skills and Competences}}
+\vspace*{-1mm}
 \cvitem{Languages}{Fortran, C/C++, IDL, Matlab (Octave), Python}
+\vspace*{-1mm}
 \cvitem{Cosmological tools}{CAMB, CLASS, polSPICE, HEALPix}
-\cvitem{Supercomputing}{MPI, OpenMP, clusters used: SCINET and Hippo (South Africa)}
-
+\vspace*{-1mm}
+\cvitem{Supercomputing}{MPI, OpenMP, clusters used: SCINET (Canada) and Hippo (South Africa)}
+\vspace*{-3mm}
 \section{\textsc{Talks and Poster Presentations}}
 {\small For a detailed list of talks and posters with PDFs, visit my website. Below a list of talks from 2016.}\\
 \newline
+\cventry{Nov 2017}{`Cosmology with ACTPol and AdvACT'}{}{invited talk}{}{Cosmology Seminar - Case Wester Reserve University, USA}
+\vspace*{-1mm}
 \cventry{July 2017}{`Maximum-likelihood map-making for ACT'}{}{contributed talk}{}{Advances in Theoretical Cosmology in Light of Data - Nordita, Stockholm}
-\cventry{Feb 2017}{`Cosmology with ACT'}{}{contributed talk}{}{UKZN, SKA, and AIMS - South Africa}
+\vspace*{-1mm}
+\cventry{Feb 2017}{`Cosmology with ACT'}{}{invited talk}{}{UKZN, SKA, and AIMS - South Africa}
+\vspace*{-1mm}
 \cventry{Feb 2017}{`Maximum-likelihood map-making for ACT'}{}{contributed talk}{}{Cosmology on Safari - South Africa}
-\cventry{Mar 2016}{`New Probes of Large-scale CMB Anomalies'}{}{invited talk}{}{Astro Seminar - Case Wester Reserve University, USA}
-%\cventry{Dec 2015}{`New Probes of Large-scale CMB Anomalies'}{}{contributed talk}{}{Cosmology Seminar - University of Oxford, UK}
-%\cventry{Nov 2015}{`New Probes of Large-scale CMB Anomalies'}{}{contributed talk - invited}{}{Cosmology Seminar - SISSA (International School of Advanced Studies), Trieste, IT}
-%\cventry{Nov 2015}{`New Probes of Large-scale CMB Anomalies'}{}{contributed talk - invited}{}{Astro Seminar - McGill University, CA}
-%\cventry{July 2015}{`Microwave Background Correlations from Dipole Anisotropy Modulation'}{}{contributed talk}{}{Santa Fe Cosmology Workshop - St. John's College, Santa Fe, USA}
-%\cventry{Feb 2015}{`Systematic Effects and Map-making with ACT'}{}{contributed talk}{}{ACT Collaboration Meeting - Princeton University, USA}
-%\cventry{Nov 2014}{`Extreme-value Statistics for Testing Dark Energy'}{}{contributed talk}{}{Astro-statistics meeting - Carnegie Mellon University, USA}
-%\cventry{Oct 2014}{`Extreme-value Statistics for Testing Dark Energy'}{}{contributed talk}{}{Physics Seminar - University of KwaZulu-Natal, ZA}
-%\cventry{Sept 2014}{`A Constraint on the Dipole Modulation of the CMB'}{}{contributed talk}{}{Large-scale anomalies: from a priori to a posteriori - Center for Education and Research in Cosmology in Astrophysics, Case Wester Reserve University, USA}
-%\cventry{May 2014}{`Extreme-value Statistics for Testing Dark Energy'*}{}{Poster}{}{Statistical Challenges in $21^{st}$ Century Cosmology - 306 IAU Symposium, Lisbon, PT}
-%\cventry{April 2014}{`Extreme-value Statistics for Testing Dark Energy'}{}{contributed talk}{}{Neighborhood Workshop on Astrophysics and Cosmology - Penn State University, USA}
-%\cventry{Dec 2013}{`$\Lambda$CDM Predictions on the Stacked Late-ISW signal'*}{}{contributed talk}{}{$27^{th}$ Texas Symposium - Dallas, USA}
-%\cvitem{}{\small{*= Awarded Travel Grant}}
-%\closesection{}                   % needed to renewcommands
-
+\vspace*{-1mm}
+\cventry{Jan 2017}{`From Time-Ordered Data to Cosmology with the Atacama Cosmology Telescope'}{}{invited talk}{}{Gravity Group Lunch - Princeton University, USA}
+\vspace*{-1mm}
+\cventry{Mar 2016}{`New Probes of Large-scale CMB Anomalies'}{}{invited talk}{}{Cosmology Seminar - Case Wester Reserve University, USA}
+\vspace*{-3mm}
 \section{\textsc{References}}
 \cventry{}{Prof. Arthur Kosowsky}{Ph.D. Advisor}{email: kosowsky@pitt.edu}{}{}
+\vspace*{-1mm}
 \cventry{}{Prof. Jo Dunkley}{Postdoc Supervisor}{email: jdunkley@princeton.edu}{}{}
+\vspace*{-1mm}
 \cventry{}{Prof. Lyman Page}{}{email: page@princeton.edu}{}{}
+\vspace*{-1mm}
 \subsection{Additional References}
+\vspace*{-1mm}
 \cventry{}{Prof. Glenn Starkman}{}{email: glenn.starkman@case.edu}{}{}
+\vspace*{-1mm}
 \cventry{}{Prof. Jonathan Sievers}{}{email: jonathan.sievers@gmail.com}{}{}
-\section{}
-\cvitem{}{\today}
+\vspace*{-3mm}
+%\section{}
+%\cvitem{}{\today}
 
 \renewcommand{\listitemsymbol}{-} % change the symbol for lists
 
